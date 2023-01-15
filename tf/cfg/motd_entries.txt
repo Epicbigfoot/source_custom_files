@@ -1,10 +1,10 @@
 "motd_entries"
 {
-	"last_request_time"		"2022-04-14 16:01:38"
+	"last_request_time"		"2023-01-15 11:24:52"
 	"last_request_language"		"english"
-	"103"
+	"107"
 	{
-		"post_time"		"2022-01-09 08:55:00"
+		"post_time"		"2023-01-09 08:55:00"
 		"title_english"		"Checked out the blog?"
 		"text_english"		"If you haven't read the official TF2 blog, it's full of insights into our development process, links to notable community productions, and random stories about our love of hats. Hit the button below to take a look!"
 		"url"		"http://www.teamfortress.com/"
