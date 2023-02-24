@@ -32,8 +32,8 @@
 	//--------------------------------------------------------------
 	"TransparentViewmodel"
 	{
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"controlName"		"ImagePanel"
 		"fieldName"			"TransparentViewmodel"
 		"zpos"				"-100"
@@ -619,9 +619,7 @@
 		"wide"		"500"
 		"tall"		"136"	[$WIN32]
 		"tall"		"176"	[$X360]
-
 		"BgAlpha"			"128"
-
 		"GrowTime"			"0"
 		"ItemHiddenTime"	"0"
 		"ItemFadeInTime"	"0"

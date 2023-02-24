@@ -3,12 +3,6 @@ Copy the following files from rayshud-master\#customizations to rayshud-master\#
 hudplayerclass-left.res
 hudplayerhealth-cross.res
 
-//transparent viewmodels
-rayshud-master\scripts\hudlayout-base.res
-Set TransparentViewmodel:
-Enabled 1
-Visible 1
-
 //Match HUD Names
 rayshud-master\resource\ui\hudmatchstatus-base.res
 Search for playername and add the following:
@@ -20,35 +14,23 @@ Search for playername and add the following:
 rayshud-master\resource\ui\scoreboard-base.res
 Search for BluePlayerList and RedPlayerList and change tall to 270
 
-//CTF Old rayshud style notification
+//Restore Bold Fonts
+rayshud-master\resource\clientscheme.res
+Change #base "scheme/clientscheme_fonts.res" to #base "scheme/clientscheme_fonts_bold.res"
+
+//Old Rayshud Style Notification
 Extract notifications folder from base hud copy to rayshud-master\resource\ui
 rayshud-master\resource\ui\notifications\base_notification.res
 Notification_Background change visible / enabled to 0
 Notification_Label change font to Cerbetica16
 
-//Win Reason
-rayshud-master\resource\ui\winpanel-base.res
-"WinReasonLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"WinReasonLabel"
-		"font"			"ScoreboardVerySmall"
-		"xpos"			"15"
-		"ypos"			"89"
-		"zpos"			"1"
-		"wide"			"268"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%WinReasonLabel%"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"centerwrap"	"0"
-	}
+//Transparent Viewmodels
+rayshud-master\scripts\hudlayout-base.res
+Set TransparentViewmodel:
+Enabled 1
+Visible 1
 
-//Restore default tf2 subtitles
+//Restore Default TF2 Subtitles
 rayshud-master\scripts\hudlayout-base.res
 "HudCloseCaption"
 	{
@@ -73,7 +55,3 @@ rayshud-master\scripts\hudlayout-base.res
 	}
 	
 Disable both closecaption files in rayshud-master\resource
-
-//Restore bold fonts
-rayshud-master\resource\clientscheme.res
-Change #base "scheme/clientscheme_fonts.res" to #base "scheme/clientscheme_fonts_bold.res"
