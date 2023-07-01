@@ -1,5 +1,3 @@
-#base	"..\#customizations\_streamermode\scripts\hudlayout.res"
-
 "Resource/HudLayout.res"
 {
 	//--------------------------------------------------------------
@@ -619,7 +617,9 @@
 		"wide"		"500"
 		"tall"		"136"	[$WIN32]
 		"tall"		"176"	[$X360]
+
 		"BgAlpha"			"128"
+
 		"GrowTime"			"0"
 		"ItemHiddenTime"	"0"
 		"ItemFadeInTime"	"0"
