@@ -13,7 +13,6 @@ Repository of my tf2 config and custom files
     * Left sided playermodel
     * HP cross
 	* Match HUD names
-	* 32 player scoreboard
 	* Bold fonts
 	* Old rayshud style notification
     * Transparent viewmodels
