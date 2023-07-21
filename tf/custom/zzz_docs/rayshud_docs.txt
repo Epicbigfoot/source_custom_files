@@ -10,10 +10,6 @@ Search for playername and add the following:
 "visible"		"1"
 "labelText"		"%playername%"
 
-//32 Player Fix
-rayshud-master\#customizations\_base\scoreboard.res
-Search for BluePlayerList and RedPlayerList and change tall to 270
-
 //Restore Bold Fonts
 rayshud-master\resource\clientscheme.res
 Change #base "scheme/clientscheme_fonts.res" to #base "scheme/clientscheme_fonts_bold.res"
