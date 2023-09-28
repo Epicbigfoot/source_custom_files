@@ -3,5 +3,5 @@ Repository of my Source Engine config and custom files
 ## List of games
 * tf (Team Fortress 2)
 * csgo (Counter-Strike: Global Offensive)
-* game (Counter-Strike 2 Limited Test)
+* game (Counter-Strike 2)
 * cstrike (Counter-Strike: Source)
