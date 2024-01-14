@@ -1,10 +1,10 @@
 //Customizations
-Copy the following files from rayshud-master\#customizations to rayshud-master\#customizations\_enabled
+Copy the following files from rayshud-master\resource\ui\#customizations to rayshud-master\resource\ui\#customizations\_enabled
 hudplayerclass-left.res
 hudplayerhealth-cross.res
 
 //Match HUD Names
-rayshud-master\#customizations\_base\hudmatchstatus.res
+rayshud-master\resource\ui\hudmatchstatus_base.res
 Search for playername and add the following:
 "enabled"		"1"
 "visible"		"1"
@@ -21,13 +21,13 @@ Notification_Background change visible / enabled to 0
 Notification_Label change font to Cerbetica16
 
 //Transparent Viewmodels
-rayshud-master\#customizations\_base\hudlayout.res
+rayshud-master\scripts\hudlayout_base.res
 Set TransparentViewmodel:
 Enabled 1
 Visible 1
 
 //Restore Default TF2 Subtitles
-rayshud-master\#customizations\_base\hudlayout.res
+rayshud-master\scripts\hudlayout_base.res
 "HudCloseCaption"
 	{
 		"fieldName" "HudCloseCaption"
