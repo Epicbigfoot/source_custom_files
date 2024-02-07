@@ -2,4 +2,4 @@
 Repository of my cs2 config and custom files
 ## List of mods
 * Launch Options
-  * -novid -language textmod
+  * -novid
