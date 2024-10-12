@@ -4,53 +4,15 @@ Change #base "scheme/clientscheme_fonts.res" to #base "scheme/clientscheme_fonts
 
 //Match HUD Names
 rayshud-master\resource\ui\hudmatchstatus.res
-Search for playername and add the following:
-"enabled"		"1"
-"visible"		"1"
-"labelText"		"%playername%"
+Search for "playername" and add the following:
+				"enabled"		"1"
+				"visible"		"1"
+				"labelText"		"%playername%"
 
 //Enable speedometer
 rayshud-master\resource\ui\hudplayerclass.res
-Search for Speedometer and Change visible to "1"
-
-//Enable HP Cross
-rayshud-master\resource\ui\hudplayerhealth.res
-Search for HPBorderPanel2 and Change visible to "1"
-
-//Old Rayshud Style Notification
-Extract base_notification.res from base hud copy to rayshud-master\resource\ui\notifications
-rayshud-master\resource\ui\notifications\base_notification.res
-Notification_Background change visible / enabled to 0
-Notification_Label change font to Cerbetica16
+Search for "Speedometer" and Change visible to "1"
 
 //Transparent Viewmodels
 rayshud-master\scripts\hudlayout.res
-Set TransparentViewmodel:
-Enabled 1
-Visible 1
-
-//Restore Default TF2 Subtitles
-rayshud-master\scripts\hudlayout.res
-"HudCloseCaption"
-	{
-		"fieldName" "HudCloseCaption"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"c-250"
-		"ypos"		"276"	[$WIN32]
-		"ypos"		"236"	[$X360]
-		"zpos"		"-1"
-		"wide"		"500"
-		"tall"		"136"	[$WIN32]
-		"tall"		"176"	[$X360]
-
-		"BgAlpha"			"128"
-
-		"GrowTime"			"0"
-		"ItemHiddenTime"	"0"
-		"ItemFadeInTime"	"0"
-		"ItemFadeOutTime"	"0"
-		"topoffset"			"0"
-	}
-	
-Disable both closecaption files in rayshud-master\resource
+Search for "TransparentViewmodel" and Change visible to "1"
