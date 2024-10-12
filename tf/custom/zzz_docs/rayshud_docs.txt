@@ -1,33 +1,36 @@
-//Customizations
-Copy the following files from rayshud-master\resource\ui\#customizations to rayshud-master\resource\ui\#customizations\_enabled
-hudplayerclass-left.res
-hudplayerhealth-cross.res
+//Restore Bold Fonts
+rayshud-master\resource\clientscheme.res
+Change #base "scheme/clientscheme_fonts.res" to #base "scheme/clientscheme_fonts_bold.res"
 
 //Match HUD Names
-rayshud-master\resource\ui\hudmatchstatus_base.res
+rayshud-master\resource\ui\hudmatchstatus.res
 Search for playername and add the following:
 "enabled"		"1"
 "visible"		"1"
 "labelText"		"%playername%"
 
-//Restore Bold Fonts
-rayshud-master\resource\clientscheme.res
-Change #base "scheme/clientscheme_fonts.res" to #base "scheme/clientscheme_fonts_bold.res"
+//Enable speedometer
+rayshud-master\resource\ui\hudplayerclass.res
+Search for Speedometer and Change visible to "1"
+
+//Enable HP Cross
+rayshud-master\resource\ui\hudplayerhealth.res
+Search for HPBorderPanel2 and Change visible to "1"
 
 //Old Rayshud Style Notification
-Extract notifications folder from base hud copy to rayshud-master\resource\ui
+Extract base_notification.res from base hud copy to rayshud-master\resource\ui\notifications
 rayshud-master\resource\ui\notifications\base_notification.res
 Notification_Background change visible / enabled to 0
 Notification_Label change font to Cerbetica16
 
 //Transparent Viewmodels
-rayshud-master\scripts\hudlayout_base.res
+rayshud-master\scripts\hudlayout.res
 Set TransparentViewmodel:
 Enabled 1
 Visible 1
 
 //Restore Default TF2 Subtitles
-rayshud-master\scripts\hudlayout_base.res
+rayshud-master\scripts\hudlayout.res
 "HudCloseCaption"
 	{
 		"fieldName" "HudCloseCaption"
