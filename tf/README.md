@@ -10,6 +10,9 @@ Repository of my tf2 config and custom files
   * Stabby disguise and viewmodel script
 * custom
   * rayshud
+	* Alternate Mode Selection
+	* Damage over Health
+	* Team Cross
 	* Bold fonts
 	* Match HUD names
 	* Speedometer
