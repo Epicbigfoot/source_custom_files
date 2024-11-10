@@ -123,7 +123,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fov"				"27"
+		"fov"				"25"
 		"allow_rot"			"1"
 		"render_texture"	"0"
 
