@@ -13,7 +13,6 @@ Repository of my tf2 config and custom files
 	* Alternate Mode Selection
 	* Damage over Health
 	* Team Cross
-	* Bold fonts
 	* Match HUD names
 	* Speedometer
     * Transparent viewmodels

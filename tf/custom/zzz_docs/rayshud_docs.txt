@@ -5,10 +5,6 @@ Alternate Mode Selection
 Damage over Health
 Team Cross
 
-//Restore Bold Fonts
-rayshud-master\resource\clientscheme.res
-Change #base "scheme/clientscheme_fonts.res" to #base "scheme/clientscheme_fonts_bold.res"
-
 //Match HUD Names
 rayshud-master\resource\ui\hudmatchstatus.res
 Search for "playername" and add the following:
