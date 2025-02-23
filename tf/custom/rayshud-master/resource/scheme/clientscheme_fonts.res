@@ -2753,12 +2753,12 @@ Scheme
 		}
 		"8"
 		{
-			"font" 	"resource/fonts/Cerbetica.ttf"
+			"font" 	"resource/fonts/cerbetica.ttf"
 			"name" 	"Cerbetica"
 		}
 		"9"
 		{
-			"font" 	"resource/fonts/Cerbetica-Bold.ttf"
+			"font" 	"resource/fonts/cerbetica-bold.ttf"
 			"name" 	"Cerbetica-Bold"
 		}
 		"10"		"resource/linux_fonts/DejaVuSans.ttf"
